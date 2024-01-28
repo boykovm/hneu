@@ -1,0 +1,18 @@
+function __generate_queue starts at 2023-05-14T18:02:37.305669
+function __generate_queue ends at 2023-05-14T18:02:37.305669 with result None
+function sum_of_elements starts at 2023-05-14T18:02:37.312684
+function sum_of_elements ends at 2023-05-14T18:02:37.312684 with result 204
+function sum_of_elements starts at 2023-05-14T18:02:37.318667
+function sum_of_elements ends at 2023-05-14T18:02:37.318667 with result 204
+function sum_of_elements starts at 2023-05-14T18:02:37.325668
+function sum_of_elements ends at 2023-05-14T18:02:37.325668 with result 204
+function __generate_queue starts at 2023-05-14T18:02:51.986231
+function __generate_queue ends at 2023-05-14T18:02:51.987230 with result None
+function sum_of_elements starts at 2023-05-14T18:02:51.995229
+function sum_of_elements ends at 2023-05-14T18:02:51.995229 with result 204
+function sum_of_elements starts at 2023-05-14T18:02:52.002230
+function sum_of_elements ends at 2023-05-14T18:02:52.002230 with result 204
+function sum_of_elements starts at 2023-05-14T18:02:52.010229
+function sum_of_elements ends at 2023-05-14T18:02:52.010229 with result 204
+function __str__ starts at 2023-05-14T18:02:52.018226
+function __str__ ends at 2023-05-14T18:02:52.018226 with result 0, 1, 4, 9, 16, 25, 36, 49, 64

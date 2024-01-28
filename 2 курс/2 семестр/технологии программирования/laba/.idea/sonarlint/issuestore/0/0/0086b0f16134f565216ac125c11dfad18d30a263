@@ -1,0 +1,14 @@
+
+gpython:S100"IRename method "getId" to match the regular expression ^[a-z_][a-z0-9_]*$.(–Å‚ý8ö®Å¦ï0
+npython:S100"KRename method "getName" to match the regular expression ^[a-z_][a-z0-9_]*$.(©Áâˆýÿÿÿÿ8ú®Å¦ï0
+qpython:S100"NRename method "getAuthors" to match the regular expression ^[a-z_][a-z0-9_]*$.(“´¦‚úÿÿÿÿ8ú®Å¦ï0
+spython:S100"PRename method "getPublisher" to match the regular expression ^[a-z_][a-z0-9_]*$.(”ªÊÁøÿÿÿÿ8ú®Å¦ï0
+upython:S100"WRename method "getYearOfPublishing" to match the regular expression ^[a-z_][a-z0-9_]*$.(¸ßÚÑ8ú®Å¦ï0
+npython:S100"PRename method "getPageCount" to match the regular expression ^[a-z_][a-z0-9_]*$.(Â½÷÷8ú®Å¦ï0
+opython:S100""LRename method "getPrice" to match the regular expression ^[a-z_][a-z0-9_]*$.(Å£›Ìüÿÿÿÿ8û®Å¦ï0
+ppython:S100%"SRename method "getPaliturkType" to match the regular expression ^[a-z_][a-z0-9_]*$.(¬—K8û®Å¦ï0
+|python:S5717*"]Change this default value to "None" and initialize this parameter inside the function/method.(ª³Þ8‡¯Å¦ï0
+ipython:S100-"KRename method "addBook" to match the regular expression ^[a-z_][a-z0-9_]*$.(ŸÜâø8‡¯Å¦ï0
+zpython:S1000"\Rename method "getBooksNameByAuthorName" to match the regular expression ^[a-z_][a-z0-9_]*$.(„Õ·Ô8‡¯Å¦ï0
+‚python:S1007"_Rename method "getBooksNameByPublisherName" to match the regular expression ^[a-z_][a-z0-9_]*$.(ë®™Ëúÿÿÿÿ8‡¯Å¦ï0
+python:S100>"\Rename method "getBooksYearlierThanYear" to match the regular expression ^[a-z_][a-z0-9_]*$.(õ¨ê·ûÿÿÿÿ8ˆ¯Å¦ï0

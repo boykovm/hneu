@@ -1,0 +1,29 @@
+
+upython:S1192"VDefine a constant instead of duplicating this literal 'Name must be provided' 4 times.(£›¥Ë8¯…Ÿƒ‰1
+\python:S112">Replace this generic exception class with a more specific one.(£›¥Ë8°…Ÿƒ‰1
+\python:S112">Replace this generic exception class with a more specific one.(£›¥Ë8°…Ÿƒ‰1
+python:S5717+"]Change this default value to "None" and initialize this parameter inside the function/method.(‹Ä±¶ýÿÿÿÿ8°…Ÿƒ‰1
+\python:S112-">Replace this generic exception class with a more specific one.(£›¥Ë8°…Ÿƒ‰1
+apython:S112M">Replace this generic exception class with a more specific one.(šÐ„øÿÿÿÿ8°…Ÿƒ‰1
+\python:S112R">Replace this generic exception class with a more specific one.(°•Öð8°…Ÿƒ‰1
+\python:S112Y">Replace this generic exception class with a more specific one.(Â˜£ê8°…Ÿƒ‰1
+\python:S112d">Replace this generic exception class with a more specific one.(£›¥Ë8°…Ÿƒ‰1
+rpython:S116Œ"TRename this field "_livingPlace" to match the regular expression ^[_a-z][_a-z0-9]*$.(Ô×±(8°…Ÿƒ‰1
+zpython:S117x"WRename this parameter "livingPlace" to match the regular expression ^[_a-z][a-z0-9_]*$.(‰÷€‚ýÿÿÿÿ8°…Ÿƒ‰1
+apython:S112z">Replace this generic exception class with a more specific one.( Ì­¯øÿÿÿÿ8°…Ÿƒ‰1
+apython:S112}">Replace this generic exception class with a more specific one.(ØªÉàûÿÿÿÿ8°…Ÿƒ‰1
+bpython:S112€">Replace this generic exception class with a more specific one.(ŠæÂ½úÿÿÿÿ8°…Ÿƒ‰1
+\python:S112ƒ">Replace this generic exception class with a more specific one.(¹ÍËi8°…Ÿƒ‰1
+]python:S112†">Replace this generic exception class with a more specific one.(ÄÔ¶å8°…Ÿƒ‰1
+\python:S5754«"<Specify an exception class to catch or reraise the exception(ˆÊÉ·8°…Ÿƒ‰1
+\python:S5754º"<Specify an exception class to catch or reraise the exception(ˆÊÉ·8°…Ÿƒ‰1
+\python:S5754É"<Specify an exception class to catch or reraise the exception(ˆÊÉ·8°…Ÿƒ‰1
+\python:S5754Ø"<Specify an exception class to catch or reraise the exception(ˆÊÉ·8°…Ÿƒ‰1
+\python:S5754Ü"<Specify an exception class to catch or reraise the exception(ˆÊÉ·8°…Ÿƒ‰1
+\python:S5754á"<Specify an exception class to catch or reraise the exception(ˆÊÉ·8°…Ÿƒ‰1
+\python:S5754ï"<Specify an exception class to catch or reraise the exception(ˆÊÉ·8°…Ÿƒ‰1
+\python:S5754þ"<Specify an exception class to catch or reraise the exception(ˆÊÉ·8°…Ÿƒ‰1
+\python:S5754ƒ"<Specify an exception class to catch or reraise the exception(ˆÊÉ·8°…Ÿƒ‰1
+\python:S5754ˆ"<Specify an exception class to catch or reraise the exception(ˆÊÉ·8°…Ÿƒ‰1
+\python:S5754Œ"<Specify an exception class to catch or reraise the exception(ˆÊÉ·8°…Ÿƒ‰1
+\python:S5754”"<Specify an exception class to catch or reraise the exception(ˆÊÉ·8“œ ƒ‰1
