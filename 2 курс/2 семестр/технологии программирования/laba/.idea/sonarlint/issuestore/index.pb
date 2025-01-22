@@ -55,9 +55,9 @@ H
 	l_16_1.py,f\b\fbc0fa8e543307bc02182675e6079179fce8f7e9
 9
 	examen.py,5\d\5d313dfd05e7db99f59b98a3801460a2e05e216a
-<
-steg/steg.py,6\b\6b6e965e012143b3a154092979ad1d76fbddb8d2
 F
 steg/initial_script.py,f\b\fb0fe689b9473dcdc57b766ce89b3807397034e8
+<
+steg/steg.py,6\b\6b6e965e012143b3a154092979ad1d76fbddb8d2
 ;
 steg/qwe.py,9\c\9cf80e81d5ece581fa458bee5892e039a14671fd

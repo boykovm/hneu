@@ -53,3 +53,4 @@ class VmProtect:
 
 
 VmProtect.isVM()
+tatus 

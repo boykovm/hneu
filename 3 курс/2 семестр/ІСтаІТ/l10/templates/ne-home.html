@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ne Home | Resume of creator</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+
+<div class="container">
+  <div class="header">
+    <div class="full-name">
+      <span class="first-name">Boyko</span>
+      <span class="last-name">Vadim</span>
+    </div>
+    <div class="contact-info">
+      <span class="email">Email: </span>
+      <span class="email-val">will_exists_@_later</span>
+      <span class="separator"></span>
+      <span class="phone">Phone: </span>
+      <span class="phone-val">_numbers_</span>
+    </div>
+
+    <div class="about">
+      <span class="position">Front-End Developer </span>
+      <span class="desc">
+        I am a Full-stack developer with more than 2 years of experience writing html, css, and js. I'm motivated, result-focused and seeking a successful team-oriented company with opportunity to grow.
+      </span>
+    </div>
+  </div>
+   <div class="details">
+    <div class="section">
+      <div class="section__title">Experience</div>
+      <div class="section__list">
+        <div class="section__list-item">
+          <div class="left">
+            <div class="name">SoftServe</div>
+            <div class="addr">Kharkiv, Ukraine</div>
+            <div class="duration">September 2021 - Now</div>
+          </div>
+          <div class="right">
+            <div class="name">Full-stack developer</div>
+            <div class="desc">I did some things</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="section">
+      <div class="section__title">Education</div>
+      <div class="section__list">
+        <div class="section__list-item">
+          <div class="left">
+            <div class="name">Kharkiv College of Building, Architecture and Design </div>
+            <div class="addr">Kharkiv, Ukraine</div>
+            <div class="duration">2017 - 2021</div>
+          </div>
+          <div class="right">
+            <div class="name">Builder Manager</div>
+            <div class="desc">I did This and that</div>
+          </div>
+        </div>
+        <div class="section__list-item">
+          <div class="left">
+            <div class="name">Simon Kuznets Kharkiv National University of Economics</div>
+            <div class="addr">Kharkiv, Ukraine</div>
+            <div class="duration">2021 - 2025</div>
+          </div>
+          <div class="right">
+            <div class="name">CyberSecurity</div>
+            <div class="desc">This i did</div>
+          </div>
+        </div>
+
+      </div>
+
+  </div>
+     <div class="section">
+      <div class="section__title">Projects</div>
+       <div class="section__list">
+         <div class="section__list-item">
+           <div class="name">Name_1</div>
+             <div class="text">
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. A animi aperiam architecto atque distinctio dolorem, doloremque ducimus earum eos explicabo facere fugit harum illo ipsam laborum maxime nesciunt odio perferendis placeat quae recusandae tenetur ullam veritatis voluptate voluptates. Distinctio dolorem doloremque id mollitia officiis quibusdam sint tenetur voluptate. Aut consequatur dolore dolorem doloremque enim expedita laboriosam natus nihil nisi placeat?
+             </div>
+           <div class="text">I am a front-end developer with more than 3 years of experience writing html, css, and js. I'm motivated, result-focused and seeking a successful team-oriented company with opportunity to grow.</div>
+         </div>
+
+         <div class="section__list-item">
+                    <div class="name">Name_2</div>
+           <div class="text">
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad animi aperiam atque autem beatae consectetur corporis dolor dolore doloribus enim exercitationem explicabo harum impedit in ipsum iusto laboriosam natus officiis perferendis perspiciatis quasi quos repellat, sapiente sed sunt suscipit totam vero voluptatum?
+           </div>
+         </div>
+       </div>
+    </div>
+     <div class="section">
+       <div class="section__title">Skills</div>
+       <div class="skills">
+           {% for skill in skills %}
+           <div class="skills__item">
+               <div class="left">
+                   <div class="name">
+                       {{skill['name']}}
+                   </div>
+               </div>
+
+               <div class="right">
+               {% for n in range(5) %}
+                   <input
+                           id="{{skill['name']}}{{n}}"
+                           type="checkbox"
+                           {% if n < skill['knowledge_level']  %}
+                           checked
+                   {% endif %}
+                   />
+
+             <label for="ck1"></label>
+               {% endfor %}
+               </div>
+
+           </div>
+           {% endfor %}
+       </div>
+     <div class="section">
+     <div class="section__title">
+       Interests
+       </div>
+       <div class="section__list">
+         <div class="section__list-item">
+                  Programming and development.
+          </div>
+       </div>
+     </div>
+     </div>
+  </div>
+</div>
+</body>
+</html>
